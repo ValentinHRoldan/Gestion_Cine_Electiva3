@@ -1,0 +1,19 @@
+[run]
+source = .
+omit =
+    */migrations/*
+    */tests/*
+    manage.py
+    */settings*
+    */urls.py
+    */wsgi.py
+    */asgi.py
+    */__init__.py
+    */apps.py
+    gestion_cines/asgi.py
+    gestion_cines/wsgi.py
+    apps/reservas/api/views.py
+[report]
+exclude_lines =
+    pragma: no cover
+    if __name__ == .__main__.:
